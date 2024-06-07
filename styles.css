@@ -1,0 +1,536 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 2px 2px 2px 2px;
+    text-align: center;
+    text-decoration: none;
+}
+.ft1{
+    background-image: url(./cenas-autenticas-de-homens-de-tamanho-grande-jogando-basquete_23-2150961227.avif);
+    color: #fff;
+    border-radius: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.ft2{
+    background-image: url(./pessoas-latinas-a-treinar-ao-ar-livre_23-2151039433.avif);
+    color: #fff;
+    border-radius: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ft3{
+    background-image: url(./retrato-de-um-jovem-sorridente-em-pe-ao-ar-livre_1048944-29813224.avif);
+    color: #fff;
+    border-radius: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+nav ul {
+    list-style: none;
+}
+.menu a:hover{
+    color: #010101;
+}
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li {
+    color: #fff;
+    background-color: rgb(26, 186, 186);
+    border-radius: 5%;
+    padding: 4px 4px 4px 4px;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Seção de fotos */
+.photos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.photos img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Seção de texto */
+.text {
+    color: #fff;
+    background-color: #b81fe6;
+    font-size: 120%;
+    margin-top: 4%;
+    padding: 10% 10% 10%;
+}
+.text h1{
+color: #dae41e;
+}
+/* Botão dinâmico */
+.botao{
+    text-align: center;
+    margin-top: 6%;
+    margin-left: 60%;
+}
+.botao button:hover{
+    color: rgb(93, 0, 255);
+    border-color: rgb(0, 68, 255);
+}
+#dynamicButton{
+    width: 100px;
+    height: 30px;
+    border-radius: 40px;
+    
+}
+#dynamic{
+    width: 100px;
+    height: 30px;
+    border-radius: 40px;
+}
+#Button{
+    width: 100px;
+    height: 30px;
+    border-radius: 40px;
+}
+
+footer {
+    padding: 1%;
+    background-color: #010101;
+    margin-top: -3%;
+    color: #fff;
+}
+footer p {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+@media screen and (max-width: 360px) {
+    
+    .menu {
+        margin-left: -5%;
+    }
+    
+    .photos{
+        display: block;
+        
+    }
+    .ft1 p {
+        width: 300px;
+        height: 200px;
+        font-size: 30px;
+        text-shadow: 100px #010101;
+    }
+    .ft2 p {
+        width: 300px;
+        height: 200px;
+        font-size: 25px;
+        text-shadow: 100px #010101;
+    }
+    .ft3 p {
+        width: 300px;
+        height: 200px;
+        font-size: 30px;
+        text-shadow: 100px #010101;
+    }
+    .photos p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .botao{
+        margin-left: -6%;
+    }
+
+}
+
+@media screen and (min-width: 361px) and (max-width: 480px){
+    nav ul {
+        list-style: none;
+        margin-left: -5%;
+    }
+
+    .menu {
+        margin-left: -5%;
+    }
+    
+    .photos{
+        display: block;
+        
+    }
+    .ft1 p {
+        width: 300px;
+        height: 200px;
+        font-size: 30px;
+        text-shadow: 100px #010101;
+        margin-left: 18%;
+    }
+    .ft2 p {
+        width: 300px;
+        height: 200px;
+        font-size: 25px;
+        text-shadow: 100px #010101;
+        margin-left: 18%;
+    }
+    .ft3 p {
+        width: 300px;
+        height: 200px;
+        font-size: 30px;
+        text-shadow: 100px #010101;
+        margin-left: 18%;
+    }
+    .photos p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer {
+        padding: 1%;
+        background-color: #010101;
+        margin-top: 27%;
+        color: #fff;
+    }
+    footer p {
+        text-align: center;
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .photos{
+        display: block;
+        
+    }
+    .ft1 p {
+        width: 300px;
+        height: 200px;
+        font-size: 30px;
+        text-shadow: 100px #010101;
+        margin-left: 22%;
+    }
+    .ft2 p {
+        width: 300px;
+        height: 200px;
+        font-size: 25px;
+        text-shadow: 100px #010101;
+        margin-left: 22%;
+    }
+    .ft3 p {
+        width: 300px;
+        height: 200px;
+        font-size: 30px;
+        text-shadow: 100px #010101;
+        margin-left: 22%;
+    }
+    .photos p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+   
+    
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    nav ul {
+        list-style: none;
+        margin-left: -2%;
+    }
+    .menu {
+        margin-left: -2%;
+    }
+    
+    .photos{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .ft1  {
+        width: 400px;
+        height: 500px;
+        font-size: 60px;
+        text-shadow: 100px #010101;
+        background-size: cover;
+        border-color: #333;
+        border-style: 0;
+    }
+    .ft1:hover{
+        border-style: solid;
+        color: aqua;
+        border-color: aqua;
+    }
+    .p1{
+        margin-top: 55%;
+        margin-left: 7%;
+        opacity: 1;
+        text-align: center;
+        transition: opacity 0.2s linear;
+    }
+    .ft2 {
+        width: 400px;
+        height: 500px;
+        font-size: 50px;
+        text-shadow: 100px #010101;
+    }
+    .ft2:hover{
+        border-style: solid;
+        color: aqua;
+        border-color: aqua;
+    }
+    .p2{
+        margin-top: 55%;
+        margin-left: 7%;
+    }
+    .ft3 {
+        width: 400px;
+        height: 500px;
+        font-size: 60px;
+        text-shadow: 100px #010101;
+    }
+    .ft3:hover{
+        border-style: solid;
+        color: aqua;
+        border-color: aqua;
+    }
+    .p3{
+        margin-top: 55%;
+        margin-left: 7%;
+    }
+   
+
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px){
+    nav ul {
+        list-style: none;
+        margin-left: -2%;
+    }
+    .menu {
+        margin-left: -2%;
+    }
+    
+    .photos{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .ft1  {
+        width: 300px;
+        height: 500px;
+        font-size: 60px;
+        text-shadow: 100px #010101;
+        background-size: cover;
+        border-color: #333;
+        border-style: 0;
+    }
+    .ft1:hover{
+        border-style: solid;
+        color: aqua;
+        border-color: aqua;
+    }
+    .p1{
+        margin-top: 55%;
+        margin-left: 7%;
+        opacity: 1;
+        text-align: center;
+        transition: opacity 0.2s linear;
+    }
+    .ft2 {
+        width: 300px;
+        height: 500px;
+        font-size: 50px;
+        text-shadow: 100px #010101;
+    }
+    .ft2:hover{
+        border-style: solid;
+        color: aqua;
+        border-color: aqua;
+    }
+    .p2{
+        margin-top: 55%;
+        margin-left: 7%;
+    }
+    .ft3 {
+        width: 300px;
+        height: 500px;
+        font-size: 60px;
+        text-shadow: 100px #010101;
+    }
+    .ft3:hover{
+        border-style: solid;
+        color: aqua;
+        border-color: aqua;
+    }
+    .p3{
+        margin-top: 55%;
+        margin-left: 7%;
+    }
+   
+
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1440px){
+    nav ul {
+        list-style: none;
+        margin-left: -1%;
+    }
+    .menu {
+        margin-left: -2%;
+    }
+    
+    .photos{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .ft1  {
+        width: 300px;
+        height: 500px;
+        font-size: 60px;
+        text-shadow: 100px #010101;
+        background-size: cover;
+        border-color: #333;
+        border-style: 0;
+    }
+    .ft1:hover{
+        border-style: solid;
+        color: aqua;
+        border-color: aqua;
+    }
+    .p1{
+        margin-top: 55%;
+        margin-left: 7%;
+        opacity: 1;
+        text-align: center;
+        transition: opacity 0.2s linear;
+    }
+    .ft2 {
+        width: 300px;
+        height: 500px;
+        font-size: 50px;
+        text-shadow: 100px #010101;
+    }
+    .ft2:hover{
+        border-style: solid;
+        color: aqua;
+        border-color: aqua;
+    }
+    .p2{
+        margin-top: 55%;
+        margin-left: 7%;
+    }
+    .ft3 {
+        width: 300px;
+        height: 500px;
+        font-size: 60px;
+        text-shadow: 100px #010101;
+    }
+    .ft3:hover{
+        border-style: solid;
+        color: aqua;
+        border-color: aqua;
+    }
+    .p3{
+        margin-top: 55%;
+        margin-left: 7%;
+    }
+   
+
+}
+
+@media screen and (min-width: 1441px) and (max-width: 3840px){
+    li a {
+        list-style: none;
+    }
+    
+    .menu {
+        margin-left: -2%;
+    }
+    
+    .photos{
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+    }
+    .ft1  {
+        width: 400px;
+        height: 500px;
+        font-size: 60px;
+        text-shadow: 100px #010101;
+        background-size: cover;
+        border-color: #333;
+        border-style: 0;
+    }
+    .ft1:hover{
+        border-style: solid;
+        color: aqua;
+        border-color: aqua;
+    }
+    .p1{
+        margin-top: 55%;
+        margin-left: 7%;
+        opacity: 1;
+        text-align: center;
+        transition: opacity 0.2s linear;
+    }
+    .ft2 {
+        width: 400px;
+        height: 500px;
+        font-size: 50px;
+        text-shadow: 100px #010101;
+    }
+    .ft2:hover{
+        border-style: solid;
+        color: aqua;
+        border-color: aqua;
+    }
+    .p2{
+        margin-top: 55%;
+        margin-left: 7%;
+    }
+    .ft3 {
+        width: 400px;
+        height: 500px;
+        font-size: 60px;
+        text-shadow: 100px #010101;
+    }
+    .ft3:hover{
+        border-style: solid;
+        color: aqua;
+        border-color: aqua;
+    }
+    .p3{
+        margin-top: 55%;
+        margin-left: 7%;
+    }
+   
+
+    
+    
+
+
+}
